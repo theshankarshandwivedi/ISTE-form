@@ -1,0 +1,105 @@
+.main {
+    box-sizing: border-box;
+    background-color: #d3ddf1;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    width: 50%;
+    padding: 20px;
+    margin-left: 350px;
+
+}
+
+form {
+    margin: 20px;
+    background-color: #fff;
+    padding: 50px;
+}
+
+form h1 {
+    float: left;
+    margin-left: 21px;
+    margin-right: 160px;
+    color: blue;
+}
+
+input {
+    width: 217px;
+    margin: 20px;
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: blue;
+    border: none;
+}
+
+#i1 {
+    height: 30px;
+    background-color: #d8d8f1;
+}
+
+#i2 {
+    height: 30px;
+    background-color: #d8d8f1;
+
+}
+
+#i3 {
+    height: 30px;
+    background-color: #c8c2e4;
+}
+
+#i4 {
+    height: 30px;
+    background-color: #c8c2e4;
+
+}
+
+#i6 {
+    height: 80px;
+    background-color: #8e97d5;
+    width: 500px;
+}
+
+#i5 {
+    width: 500px;
+    background-color: #b1aee7;
+    height: 50px;
+}
+
+
+
+#i7 {
+    float: left;
+    margin-left: 220px;
+    border: none;
+    border-radius: 50px;
+    width: 120px;
+    height: 34px;
+    background-color: #5027f4;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+p {
+    float: left;
+    margin-top: 50px;
+    margin-left: -305px;
+    color: #2cca2c;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(2, 2, 250);
+    font-weight: bold;
+}
+
+
+
+#i7:hover {
+    background-color: blueviolet;
+}
